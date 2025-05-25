@@ -1,8 +1,5 @@
 const lang = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-let i = 0;
-
-while(i < lang.length){
+for(let i = 0; i < lang.length; i++){
 	console.log(lang[i]);
-	i += 1;
 }
