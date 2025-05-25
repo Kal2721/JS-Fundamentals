@@ -1,14 +1,12 @@
 const x = Number(process.argv[2]);
-const str = "x";
 
 const printSquare = function(x){
-	for(let j = 0; j > x; j++){
+	Array.from({ length : x }).forEach(() =>{
 		let row = "";
 		for(let i =0; i < x; i++){
-			let row += "x";
+			row += "x";
 		}
 			console.log(row);
-	}
+	});
 }
 printSquare(x);
-
