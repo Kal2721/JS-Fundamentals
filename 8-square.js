@@ -4,7 +4,7 @@ const printSquare = function(x){
 	Array.from({ length : x }).forEach(() =>{
 		let row = "";
 		for(let i =0; i < x; i++){
-			row += "x";
+			row += "X";
 		}
 			console.log(row);
 	});
