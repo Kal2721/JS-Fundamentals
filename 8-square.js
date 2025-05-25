@@ -10,3 +10,8 @@ const printSquare = function(x){
 	});
 }
 printSquare(x);
+
+while(!x){
+	console.log('Missing size');
+	break;
+}
