@@ -1,7 +1,7 @@
-const argument = process.argv;
+const argument = process.argv[2];
 
-if (argument.length > 2){
-	console.log(argument[2]);
+if (argument){
+	console.log(argument);
 }else{
 	console.log('No argument');
 }
