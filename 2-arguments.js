@@ -1,4 +1,6 @@
-const argument = function(){
+
+
+const argument = function(process.argv){
 	switch(argument.length){
 		case 0:
 			console.log('No argument');
