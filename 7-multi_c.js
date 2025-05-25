@@ -1,12 +1,15 @@
-const x = process.argv[2];
+const x = Number(process.argv[2]);
 
 let string = "C is fun";
 
 const repeat = function(str, x){
-	for(let y = 0; y < x ; y++){
-		console.log(string);
-	}
+	Array.from({ length : x }).forEach(() => {
+		console.log(str);
+	});
 }
 repeat(string, x);
 
-console.log('Missing number of occurrences');
+while(!x){
+	console.log('Missing number of occurrences');
+	break;
+}
